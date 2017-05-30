@@ -41,5 +41,7 @@ You were just hired by the fast-growing international baking conglomerate, Flati
 * Once you're action creators and reducer are in place, build out the `App` component and the `InventoryList` and `NewInventoryItem` components.
 * The `App` component should be connected to the store via the `connect` function. It should use `mapStateToProps` to get the inventory items out of state and `mapDispatchToProps` to gain access to your action creator functions.
 * `App` is a container component. It should pass the inventory items down to `InventoryList` to be rendered as a list.
-* We've hardcoded a few items items to show up on the inventory list. You're need to dispatch the `"GET_INVENTORY_LIST_ITEMS"` action as part of `App`'s `componentWillMount`.
+* We've hardcoded a few items items to show up on the inventory list. You'll need to dispatch the `"GET_INVENTORY_LIST_ITEMS"` action as part of `App`'s `componentWillMount`.
 * `App` should contain `NewInventoryItem`, which is a form for a new inventory item. `NewInventoryItem` should use a prop as a callback function to tell `App` to dispatch the `"ADD_INVENTORY_LIST_ITEM"` action when the user submits the form.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/react-redux-intro-lab'>React Redux Intro Lab</a> on Learn.co and start learning to code for free.</p>
